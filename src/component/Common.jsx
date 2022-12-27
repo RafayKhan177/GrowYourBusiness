@@ -4,7 +4,7 @@ import img from "./images/img1.jpg";
 function Common(props) {
   return (
     <>
-      <section id="header" className="d-flex align-items-center my-5">
+      <section id="about" className="d-flex align-items-center my-5">
         <div className="container-fluid">
           <div className="row">
             <div className="col-10 mx-auto">
@@ -14,7 +14,7 @@ function Common(props) {
                     {props.page}
                     <strong className="brandName"> Rafay Khan </strong>
                   </h1>
-                  <h2 className="my3 about">
+                  <h2 className="my3 about animated">
                     {props.about}
                   </h2>
                   <div className="mt-3">
@@ -23,7 +23,7 @@ function Common(props) {
                     </NavLink>
                   </div>
                 </div>
-                <div className="col-lg-6 order-1 order-lg-2 headerImg">
+                <div className="col-lg-6 order-1 order-lg-2 aboutImg">
                   <img
                     src={props.imgSrc}
                     className="img-fluid animated"

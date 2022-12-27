@@ -1,7 +1,7 @@
 import Common from "./Common";
 import img from "./images/img1.jpg";
 
-function Home() {
+export default function Home() {
   return (
     <>
       <Common
@@ -14,5 +14,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;

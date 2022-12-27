@@ -1,0 +1,106 @@
+//----------------------------------------------------------------------------Imports
+@import url("https://fonts.googleapis.com/css2?family=Sarala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+//----------------------------------------------------------------------------Variebles
+$brandClr: rgb(0, 140, 255);
+$websiteClr: #dbefff;
+$darkTxt: rgb(20, 20, 20);
+$lDarkTxt: rgb(65, 65, 65);
+//----------------------------------------------------------------------------Other
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+  font-family: "Sarala", sans-serif;
+  // font-family: "Varela Round", sans-serif;
+}
+//----------------------------------------------------------------------------Headers
+.header {
+  background-color: $websiteClr;
+  .headerBrand {
+    color: $darkTxt;
+  }
+  .headerLinks {
+    text-decoration: none;
+    color: $darkTxt;
+    font-size: small;
+  }
+}
+//----------------------------------------------------------------------------About
+#about {
+  h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: $darkTxt;
+  }
+  .brandName {
+    color: $brandClr;
+  }
+  h2 {
+    color: $lDarkTxt;
+    font-size: 0.8rem;
+    background-color: $websiteClr;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .btn-get-started {
+    font-weight: 500;
+    font-size: small;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: $brandClr;
+    border: 2px solid $brandClr;
+    text-decoration: none;
+  }
+  .btn-get-started:hover {
+    background-color: $brandClr;
+    color: aliceblue;
+  }
+  .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+}
+//----------------------------------------------------------------------------Form
+.input::placeholder {
+  font-size: small;
+}
+//----------------------------------------------------------------------------Cards
+.cards {
+  .title {
+    color: $darkTxt;
+    font-size: 1rem;
+  }
+  .description {
+    font-size: 0.8rem;
+    color: $lDarkTxt;
+  }
+}
+//----------------------------------------------------------------------------Footer
+.footer {
+  background-color: $websiteClr;
+  .copyright {
+    background-color: rgb(255, 255, 255);
+    font-size: small;
+  }
+}
+//----------------------------------------------------------------------------Other

@@ -1,4 +1,3 @@
-import React from "react";
 import {
   MDBFooter,
   MDBContainer,
@@ -11,8 +10,7 @@ import {
 export default function Footer() {
   return (
     <MDBFooter
-      style={{ backgroundColor: "rgb(188, 225, 255)" }}
-      className=" text-center text-dark"
+      className=" text-center text-dark footer"
     >
       <MDBContainer className="p-4 pb-0">
         <section className="mb-4">
@@ -78,8 +76,7 @@ export default function Footer() {
       </MDBContainer>
 
       <div
-        className="text-center p-3 text-dark"
-        style={{ backgroundColor: "rgb(210, 234, 253)", fontSize: "small" }}
+        className="text-center p-3 text-dark copyright"
       >
         © 2023 COPYRIGHT . 
         <a className="text-dark" href="">

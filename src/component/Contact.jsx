@@ -43,7 +43,7 @@ function Contact() {
                   placeholder="(Mike, Rafay etc)"
                 />
                 <Form.Text className="text-muted">
-                  Anyone can see your name.
+                  Everyone can see your name.
                 </Form.Text>
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -80,6 +80,7 @@ function Contact() {
               >
                 <Form.Label>Message</Form.Label>
                 <Form.Control
+                  className="input"
                   as="textarea"
                   rows={3}
                   name="message"

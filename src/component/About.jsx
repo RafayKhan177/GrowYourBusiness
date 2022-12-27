@@ -1,7 +1,7 @@
 import img from "./images/img1.jpg";
 import Common from "./Common";
 
-function About() {
+export default function About() {
   return (
     <>
       <Common
@@ -15,5 +15,3 @@ function About() {
     </>
   );
 }
-
-export default About;
