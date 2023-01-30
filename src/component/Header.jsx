@@ -10,7 +10,7 @@ export default function Header() {
           <div className="col-12 mx-auto">
             <Navbar expand="sm">
               <Container>
-                <NavLink to="PortfolioReact/">
+                <NavLink to="/">
                   <Navbar.Brand className="headerBrand">
                     RAFAY KHAN
                   </Navbar.Brand>
@@ -27,7 +27,7 @@ export default function Header() {
                       <NavLink
                         className="headerLinks"
                         exect
-                        to="PortfolioReact/"
+                        to="/"
                       >
                         Home
                       </NavLink>
@@ -36,7 +36,7 @@ export default function Header() {
                       <NavLink
                         className="headerLinks"
                         exect
-                        to="PortfolioReact/service"
+                        to="/service"
                       >
                         Service
                       </NavLink>
@@ -45,7 +45,7 @@ export default function Header() {
                       <NavLink
                         className="headerLinks"
                         exect
-                        to="PortfolioReact/about"
+                        to="/about"
                       >
                         About
                       </NavLink>
@@ -54,7 +54,7 @@ export default function Header() {
                       <NavLink
                         className="headerLinks"
                         exect
-                        to="PortfolioReact/contact"
+                        to="/contact"
                       >
                         Contact
                       </NavLink>

@@ -19,10 +19,10 @@ export default function App() {
     <>
       <Header />
       <Routes>
-        <Route exect path="PortfolioReact/" element={<Home />} />
-        <Route exect path="PortfolioReact/service" element={<Service />} />
-        <Route exect path="PortfolioReact/contact" element={<Contact />} />
-        <Route exect path="PortfolioReact/about" element={<About />} />
+        <Route exect path="/" element={<Home />} />
+        <Route exect path="/service" element={<Service />} />
+        <Route exect path="/contact" element={<Contact />} />
+        <Route exect path="/about" element={<About />} />
         <Route path="" element={<Error />} />
       </Routes>
       <Footer />
