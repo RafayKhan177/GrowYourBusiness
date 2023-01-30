@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/PortfolioReact/static/css/main.afca488f.css",
-    "main.js": "/PortfolioReact/static/js/main.64e73aad.js",
-    "static/js/787.1ed0c42c.chunk.js": "/PortfolioReact/static/js/787.1ed0c42c.chunk.js",
-    "static/media/img1.jpg": "/PortfolioReact/static/media/img1.f27b545c66337c6473a1.jpg",
-    "static/media/fa-solid-900.ttf": "/PortfolioReact/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
-    "static/media/fa-brands-400.ttf": "/PortfolioReact/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
-    "static/media/img3.jpg": "/PortfolioReact/static/media/img3.bf536dad1b322176b454.jpg",
-    "static/media/fa-solid-900.woff2": "/PortfolioReact/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
-    "static/media/fa-brands-400.woff2": "/PortfolioReact/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
-    "static/media/fa-regular-400.ttf": "/PortfolioReact/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
-    "static/media/fa-regular-400.woff2": "/PortfolioReact/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
-    "static/media/fa-v4compatibility.ttf": "/PortfolioReact/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
-    "static/media/fa-v4compatibility.woff2": "/PortfolioReact/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
-    "index.html": "/PortfolioReact/index.html",
-    "main.afca488f.css.map": "/PortfolioReact/static/css/main.afca488f.css.map",
-    "main.64e73aad.js.map": "/PortfolioReact/static/js/main.64e73aad.js.map",
-    "787.1ed0c42c.chunk.js.map": "/PortfolioReact/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/GrowYourBusiness/static/css/main.f97d8292.css",
+    "main.js": "/GrowYourBusiness/static/js/main.cdd0b7c2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/GrowYourBusiness/static/js/787.1ed0c42c.chunk.js",
+    "static/media/img1.jpg": "/GrowYourBusiness/static/media/img1.f27b545c66337c6473a1.jpg",
+    "static/media/fa-solid-900.ttf": "/GrowYourBusiness/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/GrowYourBusiness/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/GrowYourBusiness/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/GrowYourBusiness/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/GrowYourBusiness/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/GrowYourBusiness/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/GrowYourBusiness/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/GrowYourBusiness/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/GrowYourBusiness/index.html",
+    "main.f97d8292.css.map": "/GrowYourBusiness/static/css/main.f97d8292.css.map",
+    "main.cdd0b7c2.js.map": "/GrowYourBusiness/static/js/main.cdd0b7c2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/GrowYourBusiness/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afca488f.css",
-    "static/js/main.64e73aad.js"
+    "static/css/main.f97d8292.css",
+    "static/js/main.cdd0b7c2.js"
   ]
 }
